@@ -350,5 +350,118 @@
          }(window));
           });
       </script>
+      <script>
+    var IMG_PREFIX = 'https://img.icons8.com/color/48/000000/checked-2--v1.png'
+  Lobibox.notify.DEFAULTS = $.extend({}, Lobibox.notify.DEFAULTS, {
+    sound: false,
+    title: true,
+    delay: 5000,
+    width: 100%,
+    closeButton: false
+  });
+    setTimeout(function(){ 
+        Lobibox.notify('info', {
+        msg: 'Estão respondendo essa pergunta neste momento',
+        title: '128 Pessoas',
+        img: IMG_PREFIX
+        });
+    }, 7000);
+    setTimeout(function(){ 
+        Lobibox.notify('info', {
+        msg: 'Estão respondendo essa pergunta neste momento',
+        title: '137 Pessoas',
+        img: IMG_PREFIX
+        });
+    }, 15000);
+    setTimeout(function(){ 
+        Lobibox.notify('info', {
+        msg: 'Estão respondendo essa pergunta neste momento',
+        title: '132 Pessoas',
+        img: IMG_PREFIX
+        });
+    }, 23000);
+    setTimeout(function(){ 
+        Lobibox.notify('info', {
+        msg: 'Estão respondendo essa pergunta neste momento',
+        title: '175 Pessoas',
+        img: IMG_PREFIX
+        });
+    }, 31000);
+    setTimeout(function(){ 
+        Lobibox.notify('info', {
+        msg: 'Estão respondendo essa pergunta neste momento',
+        title: '198 Pessoas',
+        img: IMG_PREFIX
+        });
+    }, 39000);
+        setTimeout(function(){ 
+        Lobibox.notify('info', {
+        msg: 'Estão respondendo essa pergunta neste momento',
+        title: '174 Pessoas',
+        img: IMG_PREFIX
+        });
+    }, 47000);
+    setTimeout(function(){ 
+        Lobibox.notify('info', {
+        msg: 'Estão respondendo essa pergunta neste momento',
+        title: '262 Pessoas',
+        img: IMG_PREFIX
+        });
+</script>
+<style>
+.lobibox-notify .lobibox-close{
+    display: none;
+}
+.lobibox-notify .lobibox-notify-title {
+    font-size: 16px;
+    background: #2c7486;
+    width: 80px;
+    padding: 0px 5px 0 5px;
+    font-family: 'PT Sans', sans-serif;
+}
+.lobibox-notify.lobibox-notify-info {
+    border-color: #00A6CA;
+    background-color: #00A6CA;
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+}
+.lobibox-notify-wrapper {
+    opacity: 0.9;
+}
+#perseguidor{
+    display: none;
+}
+.gallery-thumbs {
+      height: 20%;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+
+    .gallery-thumbs .swiper-slide {
+      height: 100%;
+      opacity: 0.4;
+    }
+
+    .gallery-thumbs .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+    .swiper-button-next.swiper-button-white, .swiper-container-rtl .swiper-button-prev.swiper-button-white {
+    background-image: none !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: #999 !important;
+}
+    @media screen and (min-width: 1023px){
+        .wp-image-163{
+            width: 35% !important;
+        }
+    }
+    @media screen and (max-width: 767px){
+        .lobibox-notify-wrapper.right .lobibox-notify {
+            margin-left: auto;
+            margin-bottom: 85px;
+        }
+    }
+</style>
    </body>
 </html>
